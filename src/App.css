@@ -1,0 +1,67 @@
+.App {
+  /* text-align: center; */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+input{
+  
+  box-shadow:3px 3px #888;
+  background: #fff;
+  height: 45px;
+  padding: 8px;
+  border-radius: 10px;
+  width: 80%;
+  outline: none
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+button {
+  width: 80%;
+  text-align: center;
+  height: 45px;
+  border-radius: 10px;
+}
+table th
+{
+  background: rgb(194, 196, 186);
+  color: aliceblue;
+  font-size: 17px;
+  cursor: pointer; 
+}
+table tbody tr:hover
+{
+  background: rgb(194, 196, 186);
+  cursor: pointer;
+}
+.editbg
+{
+  transition: background-color 0.5s ease;
+  background: rgb(34, 233, 51);
+  cursor: pointer;
+}
